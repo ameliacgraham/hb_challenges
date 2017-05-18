@@ -11,6 +11,7 @@ def replace_vowels(chars):
             new_char_list.append(char)
 
     return new_char_list
+    # return ['*' if char in vowels else char for char in chars]
 
 
 print replace_vowels(['a', 'm', 'e', 'l', 'i', 'a'])
