@@ -8,10 +8,7 @@ def pig_latin(phrase):
     """
 
     vowels = {'a', 'e', 'i', 'o', 'u'}
-
     words = phrase.split()
-    print words
-
     pig_words = []
 
     for word in words:
